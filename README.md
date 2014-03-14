@@ -3,10 +3,16 @@ Kivy is very good.
 
 - Instale dependências (necessárias para instalar o Cython e o PyGame)
 
+<<<<<<< HEAD
 ```sh
 sudo apt-get install build-essential python-dev
 
 sudo apt-get install libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsdl1.2-dev libsmpeg-dev python-numpy libportmidi-dev ffmpeg libswscale-dev libavformat-dev libavcodec-dev
+=======
+``` sh
+sudo apt-get install cython
+virtualenv venv --system-site-packages
+>>>>>>> b1e26bce764102d4e42f85f3dabdeb6cb2a3cf50
 ```
 
 - Criar um virtualenv
